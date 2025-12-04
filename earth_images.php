@@ -7,3 +7,5 @@
 </main>
 
 <?php include __DIR__ . '/includes/footer.php'; ?>
+
+<script src="/scripts/nasa_earth_images.js"></script>
