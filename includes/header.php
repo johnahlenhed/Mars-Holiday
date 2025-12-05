@@ -9,8 +9,10 @@
     <link rel="stylesheet" href="/assets/nasa-images.css">
     <link rel="stylesheet" href="/assets/date-result.css">
     <link rel="stylesheet" href="/assets/earth-images.css">
+    <link rel="stylesheet" href="/assets/mars-weather-history.css">
     <link rel="icon" type="image/png" href="/images/mars-icon.png">
     <script src="/scripts/API_KEY.js"></script>
+    <script src="/scripts/historic_mars_weather.js"></script>
     <script src="/scripts/mars_insight_weather.js"></script>
     <script>
         const localSimulatedData = '/local_data/mars_simulated_data_2025.json';
@@ -23,16 +25,25 @@
 <body>
     <header>
         <nav>
-            <a href="/earth_images.php"><h3>Earth images</h3></a>
+            <div class="navbar-container">
+                <a href="/index.php" class="mars-weather-logo"><img src="/images/mars_holiday.png" alt="Mars Weather Logo"></a>
+            </div>
+            <section class="nav-link-section">
+                <a href="/mars_weather_history.php">Mars weather history</a>
+                <a>SpaceX launches</a>
+                <a>Plan your Mars holiday</a>
+                <a>Book Hotel</a>
+            </section>
+        </nav>
 
-            <div class="current-weather"></div>
-
-            <a href="/index.php" class="mars-weather-logo"><img src="/images/mars_holiday.png" alt="Mars Weather Logo"></a>
-
-            <a href="/image_of_the_day.php" class="nasa-logo"><img src="/images/nasa_logo.png" alt="NASA Logo"></a>
-
+        <nav class="sub-navbar">
+            <h3>Today's Mars Weather</h3>
+            <div class="current-weather-wrapper">
+                <div class="current-weather"></div>
+            </div>
         </nav>
     </header>
+
     <script src="/scripts/todays_weather.js" defer></script>
 
     <script>

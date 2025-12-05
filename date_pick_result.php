@@ -2,15 +2,24 @@
 
 <main class="result-main">
     <section class="date-result">
-            <h1>Departure Date:<span id="selected-date"></span></h1>
-            <h1>Selected Spacecraft:<span id="selected-spacecraft"></span></h1>
 
-            <div id="sol-data-container">
+        <div class="result-header">
+            <h3>Departure Date</h3>
+            <span id="selected-date"></span>
+            <h3>Selected Spacecraft</h3>
+            <span id="selected-spacecraft"></span>
+        </div>
 
-            </div>
+        <div id="sol-data-container"></div>
+
+        <div class="result-conclusion">
+            <h3>Bring an extra spacesuit</h3>
+            <p>As you can see, the weather here is inhabitable. This is obviously a scam website. You're lucky I didn't charge you for this.</p>
+            <p>Take care of your home planet instead.</p>
+            <a href="earth_images.php"><h3>Check out some images of Earth!</h3></a>
+        </div>
+
     </section>
-
-
 </main>
 
 <script src="/scripts/mars_insight_weather.js"></script>
@@ -39,7 +48,6 @@
     if (spacecraft) {
         document.getElementById('selected-spacecraft').textContent = spacecraft;
     }
-
 </script>
 
 <?php include __DIR__ . '/includes/footer.php'; ?>

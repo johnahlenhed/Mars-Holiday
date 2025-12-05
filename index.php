@@ -10,10 +10,10 @@
         <div class="choose-spacecraft-container">
             <h2>Choose your spacecraft</h2>
             <select id="choose-spacecraft">
-                <option value="launch-vehicle-mark-3">Launch Vehicle Mark-3</option>
+                <option value="Launch Vehicle Mark-3">Launch Vehicle Mark-3</option>
                 <option value="H3">H3</option>
-                <option value="polar-satellite-launch-vehicle">Polar Satellite Launch Vehicle</option>
-                <option value="simplex-4a">SIMPLEx-4A</option>
+                <option value="Polar Satellite Launch Vehicle">Polar Satellite Launch Vehicle</option>
+                <option value="SIMPLEx-4A">SIMPLEx-4A</option>
             </select>
         </div>
 
