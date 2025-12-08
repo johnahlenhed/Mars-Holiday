@@ -1,5 +1,7 @@
 const NASA_EARTH_IMAGES_API_URL = `https://images-api.nasa.gov/search?q=earth&media_type=image`;
 
+//First 10 images of Earth from NASA API
+
 getNasaEarthImages();
 
 function getNasaEarthImages() {
@@ -17,13 +19,13 @@ function getNasaEarthImages() {
 function displayNasaEarthImages(data) {
     const earthImagesSection = document.querySelector('.earth-images');
 
-    data.collection.items.forEach(item => {
+    data.collection.items.slice(0, 10).forEach(item => {
+        const classNamingIndex = data.collection.items.indexOf(item) + 1;
         const imageUrl = item.links[0].href;
         const imageElement = document.createElement('img');
         imageElement.src = imageUrl;
         imageElement.alt = item.data[0].title;
-        imageElement.classList.add('earth-image');
+        imageElement.classList.add('earth-image' + classNamingIndex);
         earthImagesSection.appendChild(imageElement);
     });
 }
-

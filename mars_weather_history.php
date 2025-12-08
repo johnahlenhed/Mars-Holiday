@@ -1,9 +1,7 @@
 <?php include __DIR__ . '/includes/header.php'; ?>
 
 <main>
-    <div id="historic-mars-weather">
-
-    </div>
+    <span historic-mars-weather class="historic-mars-weather"></span>
 </main>
 
 
