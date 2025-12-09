@@ -2,8 +2,11 @@
 
 <main class="index-main">
     <section class="date-picker-section">
+        <h1>Pick your departure date to Mars</h1>
 
-        <h1>Time of departure</h1>
+        <p>Choose your preferred departure date and spacecraft to simulate weather conditions on Mars.</p>
+
+        <h2>Time of departure</h2>
 
         <input type="date" id="date-picker" />
 
