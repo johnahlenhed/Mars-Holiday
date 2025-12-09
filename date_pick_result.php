@@ -15,8 +15,13 @@
         <div class="result-conclusion">
             <h3>Bring an extra spacesuit</h3>
             <p>As you can see, the weather here is inhabitable. This is obviously a scam website. You're lucky I didn't charge you for this.</p>
+            <p>Did you really think there's commercial flights to Mars?</p>
             <p>Take care of your home planet instead.</p>
             <a href="earth_images.php"><h3>Check out some images of Earth!</h3></a>
+        </div>
+
+        <div class="result-mocking-link">
+            <a href="mocking-you.php"><h3>Click here if you feel disappointed</h3></a>
         </div>
 
     </section>

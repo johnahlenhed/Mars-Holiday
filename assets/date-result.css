@@ -114,6 +114,22 @@
   transition: all 0.3s ease-in-out;
 }
 
+.result-mocking-link {
+  text-align: center;
+}
+
+.result-mocking-link a {
+  color: var(--accent-font-color);
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+  text-decoration: underline;
+}
+
+.result-mocking-link h3:hover {
+  scale: 1.1;
+  transition: all 0.3s ease-in-out;
+}
+
 @media screen and (max-width: 768px) {
 
   .result-header {
