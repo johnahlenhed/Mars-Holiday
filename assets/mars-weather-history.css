@@ -1,0 +1,25 @@
+.historic-mars-weather {
+    background-color: var(--container-color);
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 25px;
+    margin: 5rem 0 5rem 0;
+    padding: 2rem 0 2rem 0;
+}
+
+.sol-card {
+    width: 50%;
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.sol-card h3, .sol-card h4 {
+    color: var(--accent-font-color);
+}
+
+.sol-card p {
+    color: var(--font-color);
+}
