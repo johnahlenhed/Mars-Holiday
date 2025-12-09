@@ -12,7 +12,7 @@
 
         <h3>Simulated data:</h3>
         <h5>Mars weather data</h5>
-        <p>This data is generated to mimic real Martian weather conditions for educational and demonstration purposes. The reason for this simulation is for lacking data availability from NASA APIs.</p>
+        <p>This data is generated to mimic real Martian weather conditions for educational and demonstration purposes. The reason for this simulation is for lacking data availability from NASA APIs. Mars Weather History is not simulated, the data is directly from NASA APIs.</p>
     </section>
 </main>
 

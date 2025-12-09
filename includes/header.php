@@ -6,10 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mars Holiday</title>
     <link rel="stylesheet" href="/assets/styles.css">
-    <link rel="stylesheet" href="/assets/nasa-images.css">
+    <link rel="stylesheet" href="/assets/nasa-image-of-the-day.css">
     <link rel="stylesheet" href="/assets/date-result.css">
     <link rel="stylesheet" href="/assets/earth-images.css">
     <link rel="stylesheet" href="/assets/mars-weather-history.css">
+    <link rel="stylesheet" href="/assets/disclaimer.css">
     <link rel="icon" type="image/png" href="/images/mars-icon.png">
     <script src="/scripts/API_KEY.js"></script>
     <script src="/scripts/historic_mars_weather.js" defer></script>
@@ -18,7 +19,6 @@
         const localSimulatedData = '/local_data/mars_simulated_data_2025.json';
     </script>
     <script src="/scripts/nasa_images.js" defer></script>
-    <script src="/scripts/spaceX.js" defer></script>
 
 </head>
 
@@ -30,9 +30,8 @@
             </div>
             <section class="nav-link-section">
                 <a href="/mars_weather_history.php">Mars weather history</a>
-                <a>SpaceX launches</a>
-                <a>Plan your Mars holiday</a>
-                <a>Book Hotel</a>
+                <a href="/image_of_the_day.php">Image of the Day</a>
+                <a href="/earth_images.php">Earth Images</a>
             </section>
         </nav>
 

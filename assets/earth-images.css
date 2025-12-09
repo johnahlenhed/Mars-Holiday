@@ -16,3 +16,11 @@
     width: 10rem;
     height: auto;
 }
+
+@media screen and (max-width: 768px) {
+    .earth-images {
+        grid-template-rows: repeat(4, 1fr);
+        grid-template-columns: repeat(2, 10rem);
+        gap: 3rem;
+    }
+}

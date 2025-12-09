@@ -72,7 +72,8 @@ nav {
 .sub-navbar h3 {
   color: var(--accent-font-color);
   font-family: var(--navbar-font);
-  margin-top: 1rem;
+  margin: 1rem 0 0.4rem 0;
+  padding: 0;
 }
 
 .current-weather-wrapper {
@@ -175,6 +176,17 @@ nav {
   border-radius: 25px;
 }
 
+.date-picker-section h1, h2, h3, h4, h5, h6 {
+    color: var(--accent-font-color);
+    padding: 2rem 0 1rem 0;
+}
+
+.date-picker-section p {
+  font-size: 1.2rem;
+  margin: 0 2rem 1rem 2rem;
+  text-align: center;
+}
+
 input[type="date"] {
   padding: 10px;
   font-size: 1.2rem;
@@ -188,12 +200,14 @@ input[type="date"] {
 }
 
 .choose-spacecraft-container {
-  width: 100%;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 20px;
+  flex-direction: column;
+}
+
+#submit-date {
+  margin: 1rem 0 0 0;
 }
 
 footer {
@@ -206,4 +220,74 @@ footer {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  padding-top: 1rem;
+  text-align: center;
+}
+
+footer h5 {
+  color: var(--secondary-font-color);
+  font-size: small;
+}
+
+footer div {
+  margin-bottom: 1.5rem;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    flex-direction: column;
+  }
+
+  .navbar-container {
+    flex-direction: column;
+  }
+
+  .current-weather {
+    flex-direction: column;
+  }
+
+  .nav-link-section {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .sub-navbar {
+    font-size: small;
+    gap: 0;
+  }
+
+  .sub-navbar h3 {
+    padding-bottom: 0.5rem;
+  }
+
+  .current-weather {
+    flex-direction: row;
+    padding: 0 0.5rem 0 0.5rem;
+  }
+
+  .current-weather p {
+    gap: 0;
+  }
+
+  .date-picker-section {
+    width: 100%;
+    height: 50vh;
+  }
+
+  .choose-spacecraft-container {
+    width: 100%;
+  }
+
+  .historic-mars-weather {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  footer h5 {
+    padding: 0.5rem 0 0.5rem 0;
+  }
+
+  footer p {
+    font-size: small;
+  }
 }

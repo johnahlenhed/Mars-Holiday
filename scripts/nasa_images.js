@@ -26,7 +26,5 @@ function displayNasaImage(data) {
     const imageElement = document.createElement('img');
     imageElement.src = data.url;
     imageElement.alt = data.title;
-    imageElement.style.width = '100%';
-    imageElement.style.height = 'auto';
     nasaImagesSection.appendChild(imageElement);
 }

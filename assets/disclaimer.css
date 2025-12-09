@@ -1,0 +1,11 @@
+.disclaimer-section {
+    background-color: var(--container-color);
+    color: var(--font-color);
+    border-radius: 25px;
+    margin: 5rem 0 5rem 0;
+    padding: 2rem 1rem 2rem 1rem;
+}
+
+.disclaimer-section h1, h2, h3, h4, h5, h6 {
+    color: var(--accent-font-color);
+}

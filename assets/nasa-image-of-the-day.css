@@ -1,0 +1,46 @@
+.image-of-the-day-wrapper {
+    background-color: var(--container-color);
+    border-radius: 25px;
+    margin: 2rem 0 2rem 0;
+}
+
+.image-of-the-day-wrapper h1 {
+    color: var(--accent-font-color);
+    font-family: var(--header-font);
+    text-align: center;
+    padding: 1.5rem 0 2rem 0;
+}
+
+.nasa_images {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nasa_images img {
+    max-width: 60%;
+    height: auto;
+    box-shadow: 0 3px 50px rgba(255, 255, 255, 0.555);
+}
+
+.explanation {
+    color: var(--font-color);
+    font-family: var(--body-font);
+    margin: 1rem 2rem 2rem 2rem;
+    text-align: center;
+    font-size: large;
+    padding: 2rem 1rem 2rem 1rem;
+}
+
+@media screen and (max-width: 768px) {
+    .nasa_images img {
+        max-width: 90%;
+    }
+
+    .explanation {
+        font-size: medium;
+        margin: 0;
+    }
+}
