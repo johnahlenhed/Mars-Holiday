@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="/assets/earth-images.css">
     <link rel="stylesheet" href="/assets/mars-weather-history.css">
     <link rel="stylesheet" href="/assets/disclaimer.css">
+    <link rel="stylesheet" href="/assets/mocking-you.css">
     <link rel="icon" type="image/png" href="/images/mars-icon.png">
     <script src="/scripts/API_KEY.js"></script>
     <script src="/scripts/historic_mars_weather.js" defer></script>

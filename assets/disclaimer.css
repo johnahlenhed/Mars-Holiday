@@ -9,3 +9,29 @@
 .disclaimer-section h1, h2, h3, h4, h5, h6 {
     color: var(--accent-font-color);
 }
+
+.disclaimer-section h3 {
+    padding-top: 1rem;
+    padding-bottom: 0.2rem;
+}
+
+.disclaimer-section h5 {
+    font-family: var(--body-font);
+    color: var(--font-color);
+    padding-top: 0;
+    padding-bottom: 1rem;
+}
+
+.disclaimer-section li {
+    font-family: var(--body-font);
+}
+
+.disclaimer-section a {
+    color: var(--font-color);
+    text-decoration: underline;
+}
+
+.disclaimer-section a:hover {
+    color: var(--accent-font-color);
+    transition: all 0.3s ease-in-out;
+}
