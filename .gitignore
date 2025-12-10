@@ -1,1 +1,5 @@
+fetch-weather.php
+fetch-nasa-image.php
+.DS_Store
+config.php
 API_KEY.js
