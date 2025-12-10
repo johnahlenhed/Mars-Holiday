@@ -13,7 +13,6 @@
     <link rel="stylesheet" href="/assets/disclaimer.css">
     <link rel="stylesheet" href="/assets/mocking-you.css">
     <link rel="icon" type="image/png" href="/images/mars-icon.png">
-    <script src="/scripts/API_KEY.js"></script>
     <script src="/scripts/historic_mars_weather.js" defer></script>
     <script src="/scripts/mars_insight_weather.js"></script>
     <script>

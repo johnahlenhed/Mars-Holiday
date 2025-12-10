@@ -1,4 +1,10 @@
-const daily_image_API_URL = `https://api.nasa.gov/planetary/apod?api_key=${API_KEY}`;
+fetch('fetch-nasa-image.php')
+    .then(res => res.json())
+    .then(data => console.log(data))
+    .catch(err => console.error(err));
+
+const daily_image_API_URL = 'fetch-nasa-image.php';
+
 const nasaImagesSection = document.querySelector('.nasa_images');
 
 getNasaImages();

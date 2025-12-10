@@ -17,10 +17,52 @@
     height: auto;
 }
 
+.earth-images img.enlarged {
+    width: 40rem;
+    height: auto;
+    z-index: 1001;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.952);
+    transition: width 0.3s ease;
+}
+
+.earth-images img:not(.enlarged):hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: transform 0.2s ease;
+}
+
+.background-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease;
+    z-index: 1000;
+}
+
+.background-overlay.active {
+    opacity: 1;
+    visibility: visible;
+}
+
 @media screen and (max-width: 768px) {
     .earth-images {
         grid-template-rows: repeat(4, 1fr);
         grid-template-columns: repeat(2, 10rem);
         gap: 3rem;
     }
+
+    .earth-images img.enlarged {
+        width: 80%;
+    }
+
+    
 }
