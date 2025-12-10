@@ -11,7 +11,7 @@
   position: relative;
   background-color: var(--container-color);
   color: var(--font-color);
-  width: 100%;
+  width: 75%;
   height: fit-content;
   border-radius: 25px;
   margin-top: 2rem;
@@ -131,6 +131,10 @@
 }
 
 @media screen and (max-width: 768px) {
+
+  .date-result {
+    width: 95%;
+  }
 
   .result-header {
     padding: 0 1rem 0 1rem;

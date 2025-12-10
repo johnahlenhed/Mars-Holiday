@@ -1,5 +1,6 @@
 .image-of-the-day-wrapper {
     background-color: var(--container-color);
+    width: 75%;
     border-radius: 25px;
     margin: 2rem 0 2rem 0;
 }
@@ -63,6 +64,12 @@
 }
 
 @media screen and (max-width: 768px) {
+
+    .image-of-the-day-wrapper {
+        width: 90%;
+        margin: 1rem 0 1rem 0;
+    }
+
     .nasa_images img {
         width: 80%;
     }
