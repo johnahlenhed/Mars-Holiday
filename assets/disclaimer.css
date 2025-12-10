@@ -1,9 +1,10 @@
 .disclaimer-section {
     background-color: var(--container-color);
+    width: 75%;
     color: var(--font-color);
     border-radius: 25px;
     margin: 5rem 0 5rem 0;
-    padding: 2rem 1rem 2rem 1rem;
+    padding: 3rem 4rem 3rem 4rem;
 }
 
 .disclaimer-section h1, h2, h3, h4, h5, h6 {
@@ -34,4 +35,12 @@
 .disclaimer-section a:hover {
     color: var(--accent-font-color);
     transition: all 0.3s ease-in-out;
+}
+
+@media screen and (max-width: 768px) {
+    .disclaimer-section {
+        width: 90%;
+        margin: 2rem 1rem 2rem 1rem;
+        padding: 1rem;
+    }
 }

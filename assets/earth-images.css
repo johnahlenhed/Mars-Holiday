@@ -1,5 +1,6 @@
 .earth-images {
     background-color: var(--container-color);
+    width: 75%;
     border-radius: 25px;
     margin: 5rem 0 5rem 0;
     padding: 2rem;
