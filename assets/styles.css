@@ -6,6 +6,7 @@
   --nav-color: #dcc7a1;
   --sub-nav-color: #0d0d0da1;
   --container-color: #0d0d0da1;
+  --secondary-container-color: #dcc7a1b9;
   --accent-color: #b84a36;
   --contrast-accent-color: #6daedb;
   --button-bg-color: #ff7043;
@@ -69,13 +70,6 @@ nav {
   top: 1rem;
 }
 
-.sub-navbar h3 {
-  color: var(--accent-font-color);
-  font-family: var(--navbar-font);
-  margin: 1rem 0 0.4rem 0;
-  padding: 0;
-}
-
 .current-weather-wrapper {
   display: flex;
   flex-direction: row;
@@ -112,7 +106,7 @@ nav {
 
 .sub-navbar {
   width: 100%;
-  height: auto;
+  height: 5.5rem;
   background-color: var(--sub-nav-color);
   background-image: var(--sub-nav-color);
   display: flex;
@@ -120,6 +114,13 @@ nav {
   justify-content: space-between;
   align-items: center;
   gap: 0.5rem;
+}
+
+.sub-navbar h3 {
+  color: var(--accent-font-color);
+  font-family: var(--navbar-font);
+  margin: 1rem 0 0 0;
+  padding: 0;
 }
 
 .navbar-earth {
@@ -270,7 +271,11 @@ footer div {
   }
 
   .date-picker-section {
-    width: 100%;
+    width: 90%;
+  }
+
+  .date-picker-section h1 {
+    padding: 1.5rem 1rem 1rem 1rem;
   }
 
   .choose-spacecraft-container {

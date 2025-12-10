@@ -36,7 +36,7 @@
         </nav>
 
         <nav class="sub-navbar">
-            <h3>Today's Mars Weather</h3>
+            <h3>Mars Weather <?php $date = date("Y-m-d"); echo "$date"; ?></h3> 
             <div class="current-weather-wrapper">
                 <div class="current-weather"></div>
             </div>
